@@ -43,7 +43,7 @@ nav ul {
   flex-direction: column;
   position: absolute;
   left: calc(50vw - 60px);
-  top: calc(60vh - 243px);
+  top: calc(50vh - (243px / 2));
 }
 nav a {
   display: inline-block;
