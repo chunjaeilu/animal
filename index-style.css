@@ -34,9 +34,6 @@ header h1 {
   text-align: center;
   font-weight: 400;
 }
-nav {
-  position: relative;
-}
 
 nav ul {
   display: flex;
