@@ -1,0 +1,57 @@
+/* ======== 전역 변수 선언 ======== */
+:root {
+  /* --변수이름 : 전역변수 선언 */
+  --main-color: #1abc9c;
+}
+
+/* ======== 스타일 초기화 ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --main-color: #1abc9c;
+}
+
+body {
+  font-family: "Roboto", "맑은 고딕", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+header {
+  background: var(--main-color);
+  height: 100vh;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+header h1 {
+  background: var(--main-color);
+  padding: 11px;
+  text-align: center;
+  font-weight: 400;
+}
+nav {
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: calc(50vw - 60px);
+  top: calc(60vh - 243px);
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 120px;
+  text-align: center;
+  outline: 3px solid #fff;
+  margin: 20px 0;
+  padding: 10px;
+}
