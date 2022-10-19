@@ -70,7 +70,7 @@ main h2 {
 
 main ul li img {
   width: 100%;
-  display: flex;
+  display: flex; /* 이미지는 display: flex 또는 block으로 block요소로 바꿔줘야 레이아웃에서 따로 놀지 않는다.*/
 }
 
 main .pet-list {
@@ -86,6 +86,7 @@ main .pet-list .item {
   position: relative;
   /* outline: 1px solid red; */
 }
+/* 짝수번째 요소 우측마진 제거 */
 main .pet-list .item:nth-child(2n) {
   margin-right: 0;
 }

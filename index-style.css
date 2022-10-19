@@ -9,11 +9,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --main-color: #1abc9c;
 }
 
 body {
   font-family: "Roboto", "맑은 고딕", sans-serif;
+  overflow: hidden;
 }
 
 ul {
