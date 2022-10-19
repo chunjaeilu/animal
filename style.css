@@ -39,6 +39,10 @@ header nav {
   display: flex;
 }
 
+header nav a.active {
+  border-bottom: 3px solid #fff;
+}
+
 header nav a {
   display: block; /* a 태그를 레이아웃에 적용하려면 블록요소로 바꿔줘야 한다(플렉스레이아웃에서는 자동으로 박스로 인식) */
   text-decoration: none;
