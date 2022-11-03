@@ -1,4 +1,4 @@
-# animal
+# 동물정보 모바일
 22.10.19(수)
 
 URL : https://chunjaeilu.github.io/animal/
