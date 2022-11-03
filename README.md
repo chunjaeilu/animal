@@ -1,8 +1,10 @@
 # animal 22.10.19(수)
+URL : https://chunjaeilu.github.io/animal/
 
-학습내용
-1. 모바일 가변 레이아웃
-2. flex box layout
-3. CSS 변수 var()
-4. 메인, 서브페이지 구성
-5. 버튼 메뉴 디자인
+- 개인실습 :: 모바일 레이아웃
+- 학습내용
+  - 모바일 레이아웃
+  - flex box layout
+  - :root{} 스타일 변수 만들기(css)
+  - 메인/서브페이지 구성 및 페이지 이동
+  - 버튼 메뉴 디자인
